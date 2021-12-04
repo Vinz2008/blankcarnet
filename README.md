@@ -2,5 +2,5 @@
 ##  English
 ### Presentation
 
-## French
+## Français
 ### Présentation
