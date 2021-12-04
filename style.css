@@ -1,7 +1,7 @@
 h1 {
     text-align: center
 }
-.heading {
+#heading {
     border-width:0px;
     border:none;
     border-width:0px;
@@ -11,9 +11,23 @@ h1 {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+    text-align: center;
+    text-size: 40px;
+    width: 200px;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    white-space: nowrap;
 }
 
-.content {
+#heading * {
+    display: none;
+}
+
+
+#content {
     border-width:0px;
     border: none;
     overflow: auto;
